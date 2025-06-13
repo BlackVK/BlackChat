@@ -158,3 +158,8 @@ document.addEventListener('DOMContentLoaded', () => {
         }
     }
 });
+$(document).ready(function() {
+    $('#profile-pic-preview').on('click', function() {
+        alert('Вы нажали на изображение профиля!');
+    });
+});
